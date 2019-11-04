@@ -6,7 +6,7 @@ public class Pauser : MonoBehaviour {
 	private bool paused = false;
 	private bool mute = true;
 	public GameObject pauseMenu;
-	public GameObject sound;
+	//public GameObject sound;
 
 
 
@@ -33,12 +33,12 @@ public class Pauser : MonoBehaviour {
 
 		if(mute)
 		{
-			sound.SetActive(true);
+		//	sound.SetActive(true);
 		}
 
 		else
 		{
-			sound.SetActive(false);
+			//sound.SetActive(false);
 		}
 		
 	}
